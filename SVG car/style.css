@@ -1,0 +1,34 @@
+#spoiler {
+    animation: pendulum linear alternate 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes pendulum {
+    from {
+        transform: translateX(0%);
+    }
+    to {
+        transform: translateX(1.5%);
+    }
+}
+
+#wheel-border1 {
+    fill: #464655;
+}
+
+#wheel-border2 {
+    fill: #464655;
+}
+
+#wheel-border1:hover {
+    fill: #66079a;
+}
+
+#wheel-border2:hover {
+    fill: #66079a;
+}
+
+#car {
+    transition-property: margin-left;
+    transition-duration: 3s;
+    transition-timing-function: ease;
+}
